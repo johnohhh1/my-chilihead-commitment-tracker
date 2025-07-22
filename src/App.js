@@ -7,7 +7,6 @@ import NewDelegationForm from './components/NewDelegationForm';
 import { translations } from './utils/translations';
 import { taskData } from './data/taskData';
 import { fiscalConfig } from './utils/fiscalCalendar';
-import './App.css';
 
 const App = () => {
   const [currentView, setCurrentView] = useState('home');
