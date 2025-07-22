@@ -40,7 +40,7 @@
   "keywords": [
     "restaurant-management",
     "chilis",
-    "gm-development", 
+    "gm-development",
     "delegation-tracking",
     "leadership-tools",
     "react",
@@ -50,5 +50,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/johnohhh1/my-chilihead-commitment-tracker.git"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
   }
 }
