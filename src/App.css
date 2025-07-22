@@ -1,0 +1,55 @@
+/* My ChiliHead Commitment Tracker - Custom Styles */
+
+.App {
+  text-align: center;
+}
+
+/* Custom ChiliHead Branding */
+.chilihead-red {
+  background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
+}
+
+.chilihead-gradient {
+  background: linear-gradient(135deg, #DC2626 0%, #EA580C 100%);
+}
+
+/* Custom Focus States */
+.focus-chilihead:focus {
+  outline: none;
+  ring: 2px;
+  ring-color: #DC2626;
+  border-color: #DC2626;
+}
+
+/* Custom Animations */
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ChiliHead Button Styles */
+.btn-chilihead {
+  background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
+  transition: all 0.2s ease;
+}
+
+.btn-chilihead:hover {
+  background: linear-gradient(135deg, #B91C1C 0%, #991B1B 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+}
+
+/* Progress Bar Animations */
+.progress-bar {
+  transition: width 0.3s ease;
+}
